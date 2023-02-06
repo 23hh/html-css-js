@@ -1,0 +1,15 @@
+button {
+  width: 120px;
+  background-color: #00ffff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: #fff;
+  transition: all 0.35s;
+  cursor: pointer; /* wait, crosshair, not-allowded, zoom-in, grab */
+}
