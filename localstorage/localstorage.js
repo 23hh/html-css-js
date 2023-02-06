@@ -1,4 +1,4 @@
-//브라이주 로컬 데이터에 저장하기
+//로컬 데이터에 저장하기
 
 //값 저장하기 --> localStorage.setitem('key', value);
 //값 가져오기 --> localStorage.getitem('key');
