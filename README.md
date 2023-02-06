@@ -1,1 +1,3 @@
-"# js_" 
+Javascript練習中
+
+Localstorage
