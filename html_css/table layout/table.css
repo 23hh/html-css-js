@@ -1,0 +1,43 @@
+.cart-background {
+  width: 100%;
+  margin: auto;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-box {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+td,
+th {
+  /* border: 1px solid black; */
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.submit-button {
+  background-color: antiquewhite;
+  border: none;
+  padding: 10px;
+  margin-left: auto;
+  display: block;
+}
