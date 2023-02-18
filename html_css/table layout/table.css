@@ -35,9 +35,40 @@ th {
 }
 
 .submit-button {
-  background-color: antiquewhite;
+  padding: 15px;
+  font-size: 20px;
   border: none;
-  padding: 10px;
-  margin-left: auto;
-  display: block;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: chocolate;
+}
+
+.submit-button:focus {
+  background-color: gray;
+}
+
+.submit-button:active {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+.input-text:focus {
+  border: 2px solid red;
+}
+
+.custom-link {
+  text-decoration: none;
+}
+
+.custom-link:link {
+  color: skyblue;
+}
+
+.custom-link:visited {
+  color: black;
 }
