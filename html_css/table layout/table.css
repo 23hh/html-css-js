@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "test";
+  src: url(./NanumSquareB.ttf);
+}
+
+body {
+  margin: 0px;
+  font-family: "test", "gulim", "dotum";
+  font-weight: 600;
+}
+
+p,
+h3,
+h3 {
+  transform: rotate(0.03deg);
+}
+
 .cart-background {
   width: 100%;
   margin: auto;
