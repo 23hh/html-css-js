@@ -40,9 +40,16 @@
     </nav>
 
     <script>
+        var count = 0;
 
         document.querySelector('.badge').addEventListener('click', function () {
-            document.getElementById('dark').className = 'dark'
+            count += 1
+
+            if (count % 2 == 1) {
+                document.getElementById('dark').className = 'dark'
+            } else {
+                document.getElementById('dark').classList.remove('dark')
+            }
         })
     </script>
 </body>
