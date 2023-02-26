@@ -11,14 +11,20 @@
 <body>
 
     <div class="alert alert-danger">
-        5초 이내 구매시 사은품 증정!
+        <span id="num">5</span>초 이내 구매시 사은품 증정
     </div>
 
     <script>
 
-        setTimeout(function () {
-            console.log('안녕')
+        var count = 5;
+
+        setInterval(function () {
+            count -= 1;
+            if (count >= 0) {
+                document.querySelector('#num').innerHTML = count;
+            }
         }, 1000)
+
     </script>
 
 </body>
